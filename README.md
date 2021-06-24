@@ -2,16 +2,16 @@ domain generalization， OOD问题的阅读清单，链接为笔记，没有链�
 
 # 2021
 1. Arxiv: [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/382608823) （新理论）
-2. Arxiv(**Yoshua Bengio**) Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization
-3. Arxiv Delving Deep into the Generalization of Vision Transformers under Distribution Shifts (视觉transformer的泛化性讨论)
-4. Arxiv Training Data Subset Selection for Regression with Controlled Generalization Error (从大量训练实例中选择数据子集，并保持可比的泛化性)
+2. Arxiv(**Yoshua Bengio**) _Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization_
+3. Arxiv _Delving Deep into the Generalization of Vision Transformers under Distribution Shifts_ (视觉transformer的泛化性讨论)
+4. Arxiv _Training Data Subset Selection for Regression with Controlled Generalization Error_ (从大量训练实例中选择数据子集，并保持可比的泛化性)
 5. ICML Oral： [Can Subnetwork Structure be the Key to Out-of-Distribution Generalization?](https://zhuanlan.zhihu.com/p/382608823) （彩票模型寻找模型中泛化能力更强的小模型）
 6. ICML Oral：[Domain Generalization using Causal Matching](https://zhuanlan.zhihu.com/p/382608823) (contrastive loss特征对齐+特征不变性约束)
 7. ICML Spotlight: [Environment Inference for Invariant Learning](https://zhuanlan.zhihu.com/p/382608823)
 8. ICLR Poster: [Understanding the failure modes of out-of-distribution generalization](https://zhuanlan.zhihu.com/p/382608823) （OOD失败的两种原因）
-9. ICLR Poster In Search of Lost Domain Generalization (没有model selection的方法不是好方法，如何根据验证集选择模型？)
+9. ICLR Poster _In Search of Lost Domain Generalization_ (没有model selection的方法不是好方法，如何根据验证集选择模型？)
 10. CVPR Oral: [Reducing Domain Gap by Reducing Style Bias](https://zhuanlan.zhihu.com/p/382608823) (channel-wise 均值作为图像风格，减少CNN对风格的依赖)
-11. AISTATS Linear Regression Games: Convergence Guarantees to Approximate Out-of-Distribution Solutions
+11. AISTATS _Linear Regression Games: Convergence Guarantees to Approximate Out-of-Distribution Solutions_
 
 # 2020
 1. Arxiv [I-SPEC: An End-to-End Framework for Learning Transportable, Shift-Stable Models](https://zhuanlan.zhihu.com/p/288980706)(将Domain Adaptation看作是因果图推理问题)
