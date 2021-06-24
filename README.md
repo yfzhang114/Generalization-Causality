@@ -14,5 +14,8 @@ domain generalization， OOD问题的阅读清单，链接为笔记。
 3. Arxiv [Invariant Risk Minimization](https://zhuanlan.zhihu.com/p/273209891)
 4. ICLR Poster [The Risks of Invariant Risk Minimization](https://zhuanlan.zhihu.com/p/273209891)
 
+# OLD but Important
+1. ICCV 2017 [CCSA--Unified Deep Supervised Domain Adaptation and Generalization](https://blog.csdn.net/Adupanfei/article/details/85165667)
+
 # 综述
 1. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
