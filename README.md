@@ -1,3 +1,12 @@
+* [Generalization/OOD](#generalizationood)
+   * [2021](#2021)
+   * [2020](#2020)
+   * [OLD but Important](#old-but-important)
+   * [综述](#综述)
+* [Causality](#causality)
+   * [2021](#2021-1)
+   * [综述](#综述-1)
+
 domain generalization， OOD以及causality相关问题的阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
 # Generalization/OOD
@@ -28,6 +37,8 @@ domain generalization， OOD以及causality相关问题的阅读清单，链接�
 1. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
 # Causality
+
+## 2021
 
 ## 综述
 1.  [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
