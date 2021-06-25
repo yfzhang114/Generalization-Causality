@@ -1,7 +1,5 @@
 domain generalization， OOD以及causality相关问题的阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
-[TOC]
-
 # Generalization/OOD
 ## 2021
 1. Arxiv: [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/382608823) （新理论）
