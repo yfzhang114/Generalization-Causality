@@ -37,7 +37,7 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 6. NeurIPS _Self-training Avoids Using Spurious Features Under Domain Shift_ (使用target domain的无标签数据训练有助于避免使用虚假特征)
 
 ## OLD but Important
-1. ICML 2018 (**Stanford**) _Fairness Without Demographics in Repeated Loss Minimization._
+1. ICML 2018 Oral (**Stanford**) _Fairness Without Demographics in Repeated Loss Minimization._
 2. ICCV 2017 [CCSA--Unified Deep Supervised Domain Adaptation and Generalization](https://blog.csdn.net/Adupanfei/article/details/85165667) (对比损失对齐源域目标域样本空间)
 
 ## 综述
