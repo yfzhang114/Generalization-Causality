@@ -7,6 +7,9 @@
    * [2021](#2021-1)
    * [2020](#2020-1)
    * [综述](#综述-1)
+* [Optimization/GNN/Others](#optimizationgnnothers)
+   * [2021](#2021-2)
+
 
 domain generalization， OOD以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
@@ -60,3 +63,8 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 
 ## 综述
 1.  [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
+
+# Optimization/GNN/Others
+
+## 2021 
+1. ICML [An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming](https://zhuanlan.zhihu.com/p/390808626)
