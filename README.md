@@ -7,9 +7,10 @@
    * [2021](#2021-1)
    * [2020](#2020-1)
    * [综述](#综述-1)
-* [Optimization/GNN/Others](#optimizationgnnothers)
+* [Causality/Optimization/GNN/Energy/Others](#optimizationgnnothers)
    * [2021](#2021-2)
-
+   * [2020](#2020-2)
+   * [综述](#综述-2)
 
 domain generalization， OOD以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
@@ -72,3 +73,9 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 
 ## 2021 
 1. ICML [An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming](https://zhuanlan.zhihu.com/p/390808626)
+
+## 2020
+1. NeurIPS [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
+
+## 综述
+1. [综述：基于能量的模型](https://zhuanlan.zhihu.com/p/343529491)
