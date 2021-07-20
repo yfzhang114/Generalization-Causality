@@ -7,7 +7,7 @@
    * [2021](#2021-1)
    * [2020](#2020-1)
    * [综述](#综述-1)
-* [Causality/Optimization/GNN/Energy/Others](#optimizationgnnothers)
+* [Optimization/GNN/Energy/Others](#optimizationgnnothers)
    * [2021](#2021-2)
    * [2020](#2020-2)
    * [综述](#综述-2)
