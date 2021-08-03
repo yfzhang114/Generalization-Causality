@@ -3,14 +3,18 @@
    * [2020](#2020)
    * [OLD but Important](#old-but-important)
    * [综述](#综述)
-* [Causality](#causality)
+* [Robutness](#robutness)
    * [2021](#2021-1)
    * [2020](#2020-1)
    * [综述](#综述-1)
-* [Optimization/GNN/Energy/Others](#optimizationgnnothers)
+* [Causality](#causality)
    * [2021](#2021-2)
    * [2020](#2020-2)
    * [综述](#综述-2)
+* [Optimization/GNN/Energy/Others](#optimizationgnnothers)
+   * [2021](#2021-3)
+   * [2020](#2020-3)
+   * [综述](#综述-3)
 
 domain generalization， OOD以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
@@ -59,6 +63,20 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 ## 综述
 1. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
+# Robutness
+
+## 2021
+1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
+
+## 2020
+
+## Old but Important
+1. Available at Optimization Online 2021 [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization]()(开篇之作，使用KL散度构造DRO中的uncertainty set)
+2. ICLR 2018 Oral [Certifying Some Distributional Robustnesswith Principled Adversarial Training]()(基于 Wasserstein-ball构造uncertainty set，用于adversarial robustness)
+3. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods]()(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
+
+## 综述
+
 # Causality
 
 ## 2021
@@ -95,7 +113,6 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 7. ICLR 2021 **Outstanding Paper Award** [Score-Based Generative Modeling through Stochastic Differential Equations](http://yang-song.github.io/blog/2021/score/)
 8. Arxiv 2021 _Diffusion Models Beat GANs on Image Synthesis_(Diffusion Models在图像和合成上超越GAN) 
 10. Arxiv 2021 Variational Diffusion Models
-
 
 ## 综述
 1. [综述：基于能量的模型](https://zhuanlan.zhihu.com/p/343529491)
