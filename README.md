@@ -71,9 +71,11 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 ## 2020
 
 ## Old but Important
-1. Available at Optimization Online 2021 [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization]()(开篇之作，使用KL散度构造DRO中的uncertainty set)
+1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization]()(开篇之作，使用KL散度构造DRO中的uncertainty set)
 2. ICLR 2018 Oral [Certifying Some Distributional Robustnesswith Principled Adversarial Training]()(基于 Wasserstein-ball构造uncertainty set，用于adversarial robustness)
-3. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods]()(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
+3. ICML 2018 Oral [Does Distributionally Robust Supervised Learning Give Robust Classifiers?]()(DRO就一定比ERM好？不一定！必须引入额外信息)
+4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods]()(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
+5. EMNLP 2019 [Distributionally Robust Language Modeling]()()
 
 ## 综述
 
@@ -86,6 +88,7 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 
 ## Old but Important
 1. JSTOR (**Peters**)Causal inference by using invariant prediction: identification and confidence intervals.
+2. ICML 2015 [Towards a Learning Theory of Cause-Effect Inference](使用kernel mean embedding和分类器进行casual inference                  )
 
 ## 综述
 1.  [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
@@ -98,7 +101,6 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 
 ## 2020
 1. NeurIPS [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
-2. 
 
 ## Old but Important
 1. ICML 2018 _Bilevel Programming for Hyperparameter Optimization and Meta-Learning_(用bi-level programming建模超参数搜索与meta-learning)
