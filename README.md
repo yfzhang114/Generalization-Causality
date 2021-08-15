@@ -5,16 +5,14 @@
    * [综述](#综述)
 * [Robutness](#robutness)
    * [2021](#2021-1)
-   * [2020](#2020-1)
-   * [综述](#综述-1)
+   * [OLD but Important](#old-but-important-1)
 * [Causality](#causality)
    * [2021](#2021-2)
-   * [2020](#2020-2)
-   * [综述](#综述-2)
+   * [OLD but Important](#old-but-important-2)
 * [Optimization/GNN/Energy/Others](#optimizationgnnothers)
    * [2021](#2021-3)
    * [2020](#2020-3)
-   * [综述](#综述-3)
+   * [OLD but Important](#old-but-important-3)
 
 domain generalization， OOD以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
 
@@ -59,39 +57,30 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 ## OLD but Important
 1. ICML 2018 Oral (**Stanford**) _Fairness Without Demographics in Repeated Loss Minimization._
 2. ICCV 2017 [CCSA--Unified Deep Supervised Domain Adaptation and Generalization](https://blog.csdn.net/Adupanfei/article/details/85165667) (对比损失对齐源域目标域样本空间)
-
-## 综述
-1. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
+3. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
 # Robutness
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
 
-## 2020
-
 ## Old but Important
-1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization]()(开篇之作，使用KL散度构造DRO中的uncertainty set)
-2. ICLR 2018 Oral [Certifying Some Distributional Robustnesswith Principled Adversarial Training]()(基于 Wasserstein-ball构造uncertainty set，用于adversarial robustness)
-3. ICML 2018 Oral [Does Distributionally Robust Supervised Learning Give Robust Classifiers?]()(DRO就一定比ERM好？不一定！必须引入额外信息)
-4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods]()(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
-5. EMNLP 2019 [Distributionally Robust Language Modeling]()()
+1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
+2. ICLR 2018 Oral [Certifying Some Distributional Robustnesswith Principled Adversarial Training](https://zhuanlan.zhihu.com/p/381176721)(基于 Wasserstein-ball构造uncertainty set，用于adversarial robustness)
+3. ICML 2018 Oral [Does Distributionally Robust Supervised Learning Give Robust Classifiers?](https://zhuanlan.zhihu.com/p/381176721)(DRO就一定比ERM好？不一定！必须引入额外信息)
+4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods](https://zhuanlan.zhihu.com/p/381176721)(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
+5. EMNLP 2019 [Distributionally Robust Language Modeling](https://zhuanlan.zhihu.com/p/381176721)(Coarse-grained mixture models在NLP中的经典案例)
 
-## 综述
 
 # Causality
 
 ## 2021
 
-## 2020
-1. IJCAI(**CMU**) _Causal Discovery from Heterogeneous/Nonstationary Data_
-
 ## Old but Important
 1. JSTOR (**Peters**)Causal inference by using invariant prediction: identification and confidence intervals.
 2. ICML 2015 [Towards a Learning Theory of Cause-Effect Inference](使用kernel mean embedding和分类器进行casual inference                  )
-
-## 综述
-1.  [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
+3. IJCAI 2020 (**CMU**) _Causal Discovery from Heterogeneous/Nonstationary Data_
+4. [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
 
 # Optimization/GNN/Energy/Generative/Others
 
@@ -99,11 +88,10 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 1. ICML [An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming](https://zhuanlan.zhihu.com/p/390808626)
 2. NeurIPS _Deep Structural Causal Models for Tractable Counterfactual Inference_
 
-## 2020
-1. NeurIPS [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
 
 ## Old but Important
 1. ICML 2018 _Bilevel Programming for Hyperparameter Optimization and Meta-Learning_(用bi-level programming建模超参数搜索与meta-learning)
+2. NeurIPS [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
 
 
 ## Generative Model (mainly diffusion model)
