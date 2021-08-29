@@ -3,7 +3,7 @@
    * [2020](#2020)
    * [OLD but Important](#old-but-important)
    * [综述](#综述)
-* [Robutness](#robutness)
+* [Robutness/adaptation](#robutnessadaptation)
    * [2021](#2021-1)
    * [OLD but Important](#old-but-important-1)
 * [Causality](#causality)
@@ -59,10 +59,11 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 2. ICCV 2017 [CCSA--Unified Deep Supervised Domain Adaptation and Generalization](https://blog.csdn.net/Adupanfei/article/details/85165667) (对比损失对齐源域目标域样本空间)
 3. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
-# Robutness
+# Robutness/Adaptation
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
+2. ICCV [Generalized Source-free Domain Adaptation](https://zhuanlan.zhihu.com/p/404697072)(不使用源域数据，只有源域预训练的模型时如何adaptation并保证source domain的性能)
 
 ## Old but Important
 1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
