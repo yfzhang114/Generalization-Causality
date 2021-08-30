@@ -34,7 +34,7 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 14. ICLR Poster: [Understanding the failure modes of out-of-distribution generalization](https://zhuanlan.zhihu.com/p/382608823) （OOD失败的两种原因）
 15. ICLR Poster: [An Empirical Study of Invariant Risk Minimization](https://openreview.net/forum?id=jrA5GAccy_)(对IRM的实验性探索，如可见域的diversity如何影响IRM性能等)
 16. ICLR Poster _In Search of Lost Domain Generalization_ (没有model selection的方法不是好方法，如何根据验证集选择模型？)
-17. ICLR Poster _Modeling the Second Player in Distributionally Robust Optimization_(用对抗学习建模DRO的uncertainty set)
+17. ICLR Poster [Modeling the Second Player in Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(用对抗学习建模DRO的uncertainty set)
 18. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
 19. ICLR Spotlight(**Yoshua Bengio**) [Systematic generalisation with group invariant predictions](https://zhuanlan.zhihu.com/p/382608823) (将每个类分成不同的domain(_environment inference_，然后约束每个域的特征尽可能一致从而避免虚假依赖))
 20. CVPR Oral: [Reducing Domain Gap by Reducing Style Bias](https://zhuanlan.zhihu.com/p/382608823) (channel-wise 均值作为图像风格，减少CNN对风格的依赖)
@@ -109,6 +109,14 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 7. ICLR 2021 **Outstanding Paper Award** [Score-Based Generative Modeling through Stochastic Differential Equations](http://yang-song.github.io/blog/2021/score/)
 8. Arxiv 2021 _Diffusion Models Beat GANs on Image Synthesis_(Diffusion Models在图像和合成上超越GAN) 
 10. Arxiv 2021 Variational Diffusion Models
+
+## Prompts
+
+1. ACL 2021 [WARP: Word-level Adversarial ReProgramming]()(Continuous Prompt开篇之作)
+2. Arxiv 2021 **Stanford**[Prefix-Tuning: Optimizing Continuous Prompts for Generation]()(Continuous Prompt用于NLG的各种任务)
+3. Arxiv 2021 **Google**[The Power of Scale for Parameter-Efficient Prompt Tuning]()
+4. Arxiv 2021 **Princeton**[Factual Probing Is [MASK]: Learning vs. Learning to Recall]()
+5. Arxiv 2021 **DeepMind**[Multimodal Few-Shot Learning with Frozen Language Models]()
 
 ## 综述
 1. [综述：基于能量的模型](https://zhuanlan.zhihu.com/p/343529491)
