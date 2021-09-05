@@ -112,11 +112,10 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 
 ## Prompts
 
-1. ACL 2021 [WARP: Word-level Adversarial ReProgramming]()(Continuous Prompt开篇之作)
-2. Arxiv 2021 **Stanford**[Prefix-Tuning: Optimizing Continuous Prompts for Generation]()(Continuous Prompt用于NLG的各种任务)
-3. Arxiv 2021 **Google**[The Power of Scale for Parameter-Efficient Prompt Tuning]()
-4. Arxiv 2021 **Princeton**[Factual Probing Is [MASK]: Learning vs. Learning to Recall]()
-5. Arxiv 2021 **DeepMind**[Multimodal Few-Shot Learning with Frozen Language Models]()
+1. ACL 2021 [WARP: Word-level Adversarial ReProgramming](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt开篇之作)
+2. Arxiv 2021 **Stanford**[Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt用于NLG的各种任务)(将prompt用于NLG任务上)
+3. Arxiv 2021 **Google**[The Power of Scale for Parameter-Efficient Prompt Tuning](https://zhuanlan.zhihu.com/p/407144573)(目前最简单的preifx training：只对input添加prefix)
+5. Arxiv 2021 **DeepMind**[Multimodal Few-Shot Learning with Frozen Language Models](https://zhuanlan.zhihu.com/p/407144573)(利用图像编码器把图像作为一种动态的prefix，与文本一起送入LM中)
 
 ## 综述
 1. [综述：基于能量的模型](https://zhuanlan.zhihu.com/p/343529491)
