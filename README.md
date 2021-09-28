@@ -2,19 +2,20 @@
    * [2021](#2021)
    * [2020](#2020)
    * [OLD but Important](#old-but-important)
-   * [综述](#综述)
+   * [Survey](#survey)
 * [Robutness/adaptation](#robutnessadaptation)
    * [2021](#2021-1)
-   * [OLD but Important](#old-but-important-1)
-* [Causality](#causality)
-   * [2021](#2021-2)
-   * [OLD but Important](#old-but-important-2)
-* [Optimization/GNN/Energy/Others](#optimizationgnnothers)
-   * [2021](#2021-3)
-   * [2020](#2020-3)
-   * [OLD but Important](#old-but-important-3)
+   * [Before 2021](#before-2021)
+* [Data-Centric/Prompt](#data-centricprompt)
+   * [Data Centric](#data-centric)
+   * [Prompts](#prompts)
+* [Optimization/GNN/Energy/Others](#optimizationgnnenergygenerativeothers)
+   * [Optimization](#optimization)
+   * [LTH (Lottery Ticket Hypothesis)](#lth-lottery-ticket-hypothesis)
+   * [Generative Model (Mainly Diffusion Model)](#generative-model-mainly-diffusion-model)
+   * [Survey](#survey-1)
 
-domain generalization， OOD以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看，欢迎大家commit
+Domain generalization, OOD, optimization, data-centric, prompt, robutness以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看.
 
 # Generalization/OOD
 ## 2021
@@ -57,7 +58,14 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 ## OLD but Important
 1. ICML 2018 Oral (**Stanford**) _Fairness Without Demographics in Repeated Loss Minimization._
 2. ICCV 2017 [CCSA--Unified Deep Supervised Domain Adaptation and Generalization](https://blog.csdn.net/Adupanfei/article/details/85165667) (对比损失对齐源域目标域样本空间)
-3. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
+3. JSTOR (**Peters**)Causal inference by using invariant prediction: identification and confidence intervals.
+4. ICML 2015 [Towards a Learning Theory of Cause-Effect Inference](使用kernel mean embedding和分类器进行casual inference                  )
+5. IJCAI 2020 (**CMU**) _Causal Discovery from Heterogeneous/Nonstationary Data_
+
+## Survey
+1. [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
+2. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
+
 
 # Robutness/Adaptation
 
@@ -65,7 +73,7 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
 2. ICCV [Generalized Source-free Domain Adaptation](https://zhuanlan.zhihu.com/p/404697072)(不使用源域数据，只有源域预训练的模型时如何adaptation并保证source domain的性能)
 
-## Old but Important
+## Before 2021
 1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
 2. ICLR 2018 Oral [Certifying Some Distributional Robustnesswith Principled Adversarial Training](https://zhuanlan.zhihu.com/p/381176721)(基于 Wasserstein-ball构造uncertainty set，用于adversarial robustness)
 3. ICML 2018 Oral [Does Distributionally Robust Supervised Learning Give Robust Classifiers?](https://zhuanlan.zhihu.com/p/381176721)(DRO就一定比ERM好？不一定！必须引入额外信息)
@@ -73,26 +81,29 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 5. EMNLP 2019 [Distributionally Robust Language Modeling](https://zhuanlan.zhihu.com/p/381176721)(Coarse-grained mixture models在NLP中的经典案例)
 
 
-# Causality
 
-## 2021
+# Data-Centric/Prompt
 
-## Old but Important
-1. JSTOR (**Peters**)Causal inference by using invariant prediction: identification and confidence intervals.
-2. ICML 2015 [Towards a Learning Theory of Cause-Effect Inference](使用kernel mean embedding和分类器进行casual inference                  )
-3. IJCAI 2020 (**CMU**) _Causal Discovery from Heterogeneous/Nonstationary Data_
-4. [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
+## Data Centric
+1. AISTATS 2019 [Towards Optimal Transport with Global Invariances](https://zhuanlan.zhihu.com/p/413791971)(如何对齐两个数据集？)
+2. NeurIPS 2020 [Geometric Dataset Distances via Optimal Transport](https://zhuanlan.zhihu.com/p/413791971)(如何定义两个数据集之间的距离？)
+3. ICML 2021 [Dataset Dynamics via Gradient Flows in Probability Space](https://zhuanlan.zhihu.com/p/413791971)(如何进行数据集优化，使得两个数据集尽可能的像？)
+
+## Prompts
+
+1. ACL 2021 [WARP: Word-level Adversarial ReProgramming](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt开篇之作)
+2. Arxiv 2021 **Stanford**[Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt用于NLG的各种任务)(将prompt用于NLG任务上)
+3. Arxiv 2021 **Google**[The Power of Scale for Parameter-Efficient Prompt Tuning](https://zhuanlan.zhihu.com/p/407144573)(目前最简单的preifx training：只对input添加prefix)
+4. Arxiv 2021 **DeepMind**[Multimodal Few-Shot Learning with Frozen Language Models](https://zhuanlan.zhihu.com/p/407144573)(利用图像编码器把图像作为一种动态的prefix，与文本一起送入LM中)
+
 
 # Optimization/GNN/Energy/Generative/Others
 
-## 2021 
-1. ICML [An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming](https://zhuanlan.zhihu.com/p/390808626)
-2. NeurIPS _Deep Structural Causal Models for Tractable Counterfactual Inference_
-
-
-## Old but Important
+## Optimization
+1. ICML 2021 [An End-to-End Framework for Molecular Conformation Generation via Bilevel Programming](https://zhuanlan.zhihu.com/p/390808626)
+2. NeurIPS 2021 _Deep Structural Causal Models for Tractable Counterfactual Inference_
 1. ICML 2018 _Bilevel Programming for Hyperparameter Optimization and Meta-Learning_(用bi-level programming建模超参数搜索与meta-learning)
-2. NeurIPS [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
+2. NeurIPS 2021 [Energy-based Out-of-distribution Detection](https://zhuanlan.zhihu.com/p/343678039)
 
 ## LTH (Lottery Ticket Hypothesis)
 1. NeurIPS 2020: [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](https://zhuanlan.zhihu.com/p/404139792) (彩票假设用于BERT fine-tune))
@@ -110,12 +121,6 @@ domain generalization， OOD以及causality相关问题的前沿文章阅读清�
 8. Arxiv 2021 _Diffusion Models Beat GANs on Image Synthesis_(Diffusion Models在图像和合成上超越GAN) 
 10. Arxiv 2021 Variational Diffusion Models
 
-## Prompts
 
-1. ACL 2021 [WARP: Word-level Adversarial ReProgramming](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt开篇之作)
-2. Arxiv 2021 **Stanford**[Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://zhuanlan.zhihu.com/p/407144573)(Continuous Prompt用于NLG的各种任务)(将prompt用于NLG任务上)
-3. Arxiv 2021 **Google**[The Power of Scale for Parameter-Efficient Prompt Tuning](https://zhuanlan.zhihu.com/p/407144573)(目前最简单的preifx training：只对input添加prefix)
-5. Arxiv 2021 **DeepMind**[Multimodal Few-Shot Learning with Frozen Language Models](https://zhuanlan.zhihu.com/p/407144573)(利用图像编码器把图像作为一种动态的prefix，与文本一起送入LM中)
-
-## 综述
+## Survey
 1. [综述：基于能量的模型](https://zhuanlan.zhihu.com/p/343529491)
