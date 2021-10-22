@@ -3,7 +3,7 @@
    * [2020](#2020)
    * [OLD but Important](#old-but-important)
    * [Survey](#survey)
-* [Robutness/adaptation](#robutnessadaptation)
+* [Robutness/Adaptation/Fairness](#robutnessadaptationfairness)
    * [2021](#2021-1)
    * [Before 2021](#before-2021)
 * [Data-Centric/Prompt](#data-centricprompt)
@@ -67,11 +67,13 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 2. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
 
-# Robutness/Adaptation
+# Robutness/Adaptation/Fairness
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
 2. ICCV [Generalized Source-free Domain Adaptation](https://zhuanlan.zhihu.com/p/404697072)(不使用源域数据，只有源域预训练的模型时如何adaptation并保证source domain的性能)
+3. FAccT [Algorithmic recourse: from counterfactual explanations to interventions](https://zhuanlan.zhihu.com/p/424631782)(提出了causal recourse的概念)
+4. ICML WorkShop [On the Fairness of Causal Algorithmic Recourse](https://zhuanlan.zhihu.com/p/424631782)(本文在group recourse的基础上考虑了多个变量之间的相互影响即所谓的因果关系。)
 
 ## Before 2021
 1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
@@ -79,7 +81,7 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 3. ICML 2018 Oral [Does Distributionally Robust Supervised Learning Give Robust Classifiers?](https://zhuanlan.zhihu.com/p/381176721)(DRO就一定比ERM好？不一定！必须引入额外信息)
 4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods](https://zhuanlan.zhihu.com/p/381176721)(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
 5. EMNLP 2019 [Distributionally Robust Language Modeling](https://zhuanlan.zhihu.com/p/381176721)(Coarse-grained mixture models在NLP中的经典案例)
-
+6. Arxiv 2019 [Equalizing recourse across groups](https://zhuanlan.zhihu.com/p/424631782)(基础的recourse测量的是单个样本，本文给出了一个group级别的recourse度量。)
 
 
 # Data-Centric/Prompt
