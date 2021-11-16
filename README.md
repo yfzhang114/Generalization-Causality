@@ -6,6 +6,8 @@
 * [Robutness/Adaptation/Fairness](#robutnessadaptationfairness)
    * [2021](#2021-1)
    * [Before 2021](#before-2021)
+* [Causality](#causality)
+   * [Individual Treatment Estimation](#individual-treatment-estimation)
 * [Data-Centric/Prompt](#data-centricprompt)
    * [Data Centric](#data-centric)
    * [Prompts](#prompts)
@@ -86,6 +88,16 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods](https://zhuanlan.zhihu.com/p/381176721)(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
 5. EMNLP 2019 [Distributionally Robust Language Modeling](https://zhuanlan.zhihu.com/p/381176721)(Coarse-grained mixture models在NLP中的经典案例)
 6. Arxiv 2019 [Equalizing recourse across groups](https://zhuanlan.zhihu.com/p/424631782)(基础的recourse测量的是单个样本，本文给出了一个group级别的recourse度量。)
+
+# Causality
+
+## Individual Treatment Estimation
+1. ICML 2017 [Estimating individual treatment effect: generalization bounds and algorithms](https://zhuanlan.zhihu.com/p/426793887)(本文第一次提出了ITE的概念，并使用DA的一套理论对其进行bound，依次设计了一套行而有效的算法。)
+2. NeurIPS 2019 [Adapting Neural Networks for the Estimation of Treatment Effects](https://zhuanlan.zhihu.com/p/426793887)(这篇文章的核心思想是这样的：我们没必要使用所有的协方差变量X进行adjustment。)
+3. PNAS 2019 [Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning](https://zhuanlan.zhihu.com/p/426793887)(本文提出了一种新的框架X-learner，当各个treatment组的数据非常不均衡的时候，这种框架非常有效。)
+4. AAAI 2020 [Learning Counterfactual Representations for Estimating Individual Dose-Response Curves](https://zhuanlan.zhihu.com/p/426793887)(本文提出了新的metric，新的数据集，和训练策略，允许对任意数量的treatment的outcome进行估计。)
+5. ICLR 2021 Oral: [VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments](https://zhuanlan.zhihu.com/p/426793887)(本文基于varying coefficient model，让每个treatment对应的branch成为treatment的函数，而不需要单独设计branch，依次达到真正的连续性。)
+6. Arxiv 2021 [Neural Counterfactual Representation Learning for Combinations of Treatments](https://zhuanlan.zhihu.com/p/426793887)(本文考虑更复杂的情况：多种treatment共同作用。)
 
 
 # Data-Centric/Prompt
