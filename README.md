@@ -45,7 +45,12 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 22. CVPR Oral: [Reducing Domain Gap by Reducing Style Bias](https://zhuanlan.zhihu.com/p/382608823) (channel-wise 均值作为图像风格，减少CNN对风格的依赖)
 23. AISTATS _Linear Regression Games: Convergence Guarantees to Approximate Out-of-Distribution Solutions_
 24. AISTATS Oral _Does Invariant Risk Minimization Capture Invariance_(IRM只有在满足特定条件的情况下才能真正捕捉不变形特征)
-25. NeurIPS 2021 [Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests](https://arxiv.org/abs/2106.00545)(本文使用因果工具设计了一个可行的算法，将反事实推理与域泛化（OOD）联系起来，进行有效的“stress test”，比如变化一个句子包含的的gender信息，看最后情感分类会不会改变。)
+25. NeurIPS [Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests](https://arxiv.org/abs/2106.00545)(本文使用因果工具设计了一个可行的算法，将反事实推理与域泛化（OOD）联系起来，进行有效的“stress test”，比如变化一个句子包含的的gender信息，看最后情感分类会不会改变。)
+26. NeurIPS [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://zhuanlan.zhihu.com/p/357962431)(利用未标记的数据来更好地处理新domain引起的distribution shift)
+27. NeurIPS [An Empirical Investigation of Domain Generalization with Empirical Risk Minimizers](https://zhuanlan.zhihu.com/p/357962431)(基于domain adaptation的理论测量方法不能准确地捕捉OOD泛化行为)
+28. NeurIPS Spotlight [On Inductive Biases for Heterogeneous Treatment Effect Estimation](https://zhuanlan.zhihu.com/p/357962431)(使用因果工具设计了一个可行的算法，将反事实推理与域泛化（OOD）联系起来)
+29. NeurIPS Spotlight [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://zhuanlan.zhihu.com/p/357962431)(在test的阶段，我们在依然会选择更新模型头部的linear层)
+30. NeurIPS [Why Do Better Loss Functions Lead to Less Transferable Features?](https://zhuanlan.zhihu.com/p/357962431)(本文研究了训练目标的选择如何影响卷积神经网络在ImageNet上训练得到的可迁移性)
 
 ## 2020
 1. Arxiv [I-SPEC: An End-to-End Framework for Learning Transportable, Shift-Stable Models](https://zhuanlan.zhihu.com/p/288980706)(将Domain Adaptation看作是因果图推理问题)
@@ -81,6 +86,11 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 4. ICCV [Gradient Distribution Alignment Certificates Better Adversarial Domain Adaptation](https://zhuanlan.zhihu.com/p/426728622)(该算法通过特征提取器和鉴别器之间的对抗学习来减小特征梯度在两个域之间的分布差异)
 5. FAccT [Algorithmic recourse: from counterfactual explanations to interventions](https://zhuanlan.zhihu.com/p/424631782)(提出了causal recourse的概念)
 6. ICML WorkShop [On the Fairness of Causal Algorithmic Recourse](https://zhuanlan.zhihu.com/p/424631782)(本文在group recourse的基础上考虑了多个变量之间的相互影响即所谓的因果关系。)
+7. NeurIPS [Domain Adaptation with Invariant Representation Learning: What Transformations to Learn?](https://zhuanlan.zhihu.com/p/316265317)(DA为什么需要两个encoder？)
+8. NeurIPS [Gradual Domain Adaptation without Indexed Intermediate Domains](https://zhuanlan.zhihu.com/p/316265317)(没有domaparameterin label的Gradual domain adaption(GDA))
+9. NeurIPS [Implicit Semantic Response Alignment for Partial Domain Adaptation](https://zhuanlan.zhihu.com/p/316265317)(PDA如何利用好额外类)
+10. NeurIPS [The balancing principle for parameter choice in distance-regularized domain adaptation](https://zhuanlan.zhihu.com/p/316265317)(如何挑选分类损失和正则化项的tradeoff parameter)
+
 
 ## Before 2021
 1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
@@ -89,6 +99,7 @@ Domain generalization, OOD, optimization, data-centric, prompt, robutness以及c
 4. NeurIPS 2019 [Distributionally Robust Optimization and Generalization in Kernel Methods](https://zhuanlan.zhihu.com/p/381176721)(本文使用MMD(maximummean discrepancy)对uncertainty set进行建模，得到了MMD DRO)
 5. EMNLP 2019 [Distributionally Robust Language Modeling](https://zhuanlan.zhihu.com/p/381176721)(Coarse-grained mixture models在NLP中的经典案例)
 6. Arxiv 2019 [Equalizing recourse across groups](https://zhuanlan.zhihu.com/p/424631782)(基础的recourse测量的是单个样本，本文给出了一个group级别的recourse度量。)
+7. ICML 2020 Oral [Continuously indexed domain adaptation](https://zhuanlan.zhihu.com/p/316265317)(连续变化的domain)
 
 # Causality
 
