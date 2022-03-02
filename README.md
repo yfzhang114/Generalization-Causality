@@ -1,3 +1,16 @@
+
+
+This is a repository for organizing articles related to Domain generalization, OOD, optimization, data-centric learning, prompt learning, robutness, and causality. Most papers are linked to **my reading notes**. Feel free to visit my [personal homepage](https://yfzhang114.github.io/) and contact me for collaboration and discussion.
+
+### About Me :high_brightness: 
+I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
+
+
+###  🔥 Updated 2022-3-2
+- Our paper [Towards Principled Disentanglement for Domain Generalization](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lUnt8X4AAAAJ&citation_for_view=lUnt8X4AAAAJ:eQOLeE2rZwMC) is accepted to CVPR2022. :blush:
+- Domain generalization/OOD papers on ICLR 2022 have been updated.
+
+# Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
    * [2022](#2022)
    * [2021](#2021)
@@ -17,9 +30,6 @@
    * [LTH (Lottery Ticket Hypothesis)](#lth-lottery-ticket-hypothesis)
    * [Generative Model (Mainly Diffusion Model)](#generative-model-mainly-diffusion-model)
    * [Survey](#survey-1)
-
-Domain generalization, OOD, optimization, data-centric, prompt, robutness以及causality相关问题的前沿文章阅读清单，链接为笔记，没有链接就是还没看.
-
 # Generalization/OOD
 ## 2022
 1. ICLR Oral [A Fine-Grained Analysis on Distribution Shift](https://zhuanlan.zhihu.com/p/466675818)(如何准确的定义distribution shift，以及如何系统的测量模型的鲁棒性)
