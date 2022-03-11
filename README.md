@@ -6,9 +6,10 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 
-###  🔥 Updated 2022-3-2
-- Our paper [Towards Principled Disentanglement for Domain Generalization](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lUnt8X4AAAAJ&citation_for_view=lUnt8X4AAAAJ:eQOLeE2rZwMC) is accepted to CVPR2022. :blush:
+###  🔥 Updated 2022-3-11
+- Our paper Towards Principled Disentanglement for Domain Generalization is accepted to CVPR2022. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
 - Domain generalization/OOD papers on ICLR 2022 have been updated.
+- Implicit Neural Representation (INR) papers on 2D images have been updated.
 
 # Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
@@ -29,16 +30,18 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
    * [Optimization](#optimization)
    * [LTH (Lottery Ticket Hypothesis)](#lth-lottery-ticket-hypothesis)
    * [Generative Model (Mainly Diffusion Model)](#generative-model-mainly-diffusion-model)
+   * [Implicit Neural Representation (INR)](#implicit-neural-representation-inr)
    * [Survey](#survey-1)
 # Generalization/OOD
 ## 2022
-1. ICLR Oral [A Fine-Grained Analysis on Distribution Shift](https://zhuanlan.zhihu.com/p/466675818)(如何准确的定义distribution shift，以及如何系统的测量模型的鲁棒性)
-2. ICLR Oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://zhuanlan.zhihu.com/p/466675818)(fine-tuning（微调）和linear probing相辅相成)
-3. ICLR Spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://zhuanlan.zhihu.com/p/466675818)(统一的参数高效微调理论框架)
-4. ICLR Spotlight [How Do Vision Transformers Work?](https://zhuanlan.zhihu.com/p/466675818)(Vision Transformers (ViTs)的优良特性)
-5. ICLR Spotlight [On Predicting Generalization using GANs](https://zhuanlan.zhihu.com/p/466675818)(使用源域数据训练出的GAN来预测测试误差)
-6. ICLR Poster [Uncertainty Modeling for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/466675818)(域泛化时考虑特征的不确定性，一种新的数据增强方法)
-7. ICLR Poster [Gradient Matching for Domain Generalization](https://zhuanlan.zhihu.com/p/466675818)(鼓励来自不同域的梯度之间的内积更大)
+1. CVPR（CMU） [Towards Principled Disentanglement for Domain Generalization](https://zhuanlan.zhihu.com/p/477855079)(将解耦用于DG，新理论，新方法)
+2. ICLR Oral [A Fine-Grained Analysis on Distribution Shift](https://zhuanlan.zhihu.com/p/466675818)(如何准确的定义distribution shift，以及如何系统的测量模型的鲁棒性)
+3. ICLR Oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://zhuanlan.zhihu.com/p/466675818)(fine-tuning（微调）和linear probing相辅相成)
+4. ICLR Spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://zhuanlan.zhihu.com/p/466675818)(统一的参数高效微调理论框架)
+5. ICLR Spotlight [How Do Vision Transformers Work?](https://zhuanlan.zhihu.com/p/466675818)(Vision Transformers (ViTs)的优良特性)
+6. ICLR Spotlight [On Predicting Generalization using GANs](https://zhuanlan.zhihu.com/p/466675818)(使用源域数据训练出的GAN来预测测试误差)
+7. ICLR Poster [Uncertainty Modeling for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/466675818)(域泛化时考虑特征的不确定性，一种新的数据增强方法)
+8. ICLR Poster [Gradient Matching for Domain Generalization](https://zhuanlan.zhihu.com/p/466675818)(鼓励来自不同域的梯度之间的内积更大)
 ## 2021
 1. ICCV [CrossNorm and SelfNorm for Generalization under Distribution Shifts](https://zhuanlan.zhihu.com/p/426728622)(思路简单的正则化技术用于DG)
 2. ICCV [A Style and Semantic Memory Mechanism for Domain Generalization](https://zhuanlan.zhihu.com/p/426728622)(尝试着去使用intra-domain style invariance来提升模型的泛化性能)
@@ -172,6 +175,8 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 7. ICLR 2021 **Outstanding Paper Award** [Score-Based Generative Modeling through Stochastic Differential Equations](http://yang-song.github.io/blog/2021/score/)
 8. Arxiv 2021 _Diffusion Models Beat GANs on Image Synthesis_(Diffusion Models在图像和合成上超越GAN) 
 10. Arxiv 2021 Variational Diffusion Models
+
+## Implicit Neural Representation (INR)
 
 
 ## Survey
