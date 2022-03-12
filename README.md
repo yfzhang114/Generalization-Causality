@@ -177,6 +177,12 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 10. Arxiv 2021 Variational Diffusion Models
 
 ## Implicit Neural Representation (INR)
+1. NeurIPS 2020 (Oral)： [Implicit Neural Representations with Periodic Activation Functions](https://zhuanlan.zhihu.com/p/472942119)
+2. SIGGRAPH Asia 2020： [X-Fields: Implicit Neural View-, Light- and Time-Image Interpolation](https://zhuanlan.zhihu.com/p/472942119)
+3. CVPR 2021 (Oral)：[Learning Continuous Image Representation with Local Implicit Image Function](https://zhuanlan.zhihu.com/p/472942119)
+4. CVPR 2021 [Adversarial Generation of Continuous Images](https://arxiv.org/abs/2011.12026)
+5. NeurIPS 2021 [Learning Signal-Agnostic Manifolds of Neural Fields](https://arxiv.org/abs/2111.06387)
+6. Arxiv 2021 [Generative Models as Distributions of Functions](https://arxiv.org/abs/2102.04776)
 
 
 ## Survey
