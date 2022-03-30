@@ -7,7 +7,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 
 
 ###  🔥 Updated 2022-3-26
-- Our paper Towards Principled Disentanglement for Domain Generalization is accepted to CVPR2022. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
+- Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
 - Recent Domain generalization/OOD/Robustness papers on Arxiv have been updated.
 - Implicit Neural Representation (INR) papers on 2D images have been updated.
 
