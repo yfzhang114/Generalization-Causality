@@ -6,10 +6,9 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 
-###  🔥 Updated 2022-3-26
+###  🔥 Updated 2022-6-23
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Recent Domain generalization/OOD/Robustness papers on Arxiv have been updated.
-- Implicit Neural Representation (INR) papers on 2D images have been updated.
+- Recent Domain generalization/OOD/Robustness papers on ICML/CVPR 2022 have been updated.
 
 # Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
@@ -35,17 +34,22 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
    * [Survey](#survey-1)
 # Generalization/OOD
 ## 2022
-1. CVPR（CMU） [Towards Principled Disentanglement for Domain Generalization](https://zhuanlan.zhihu.com/p/477855079)(将解耦用于DG，新理论，新方法)
-2. Arxiv [WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series Tasks](https://woods-benchmarks.github.io/)(一个关于时序数据OOD的多个benchmark)
-3. Arxiv [A Broad Study of Pre-training for DomainGeneralization and Adaptation](https://arxiv.org/pdf/2203.11819.pdf)(深入研究了预训练对于DA,DG任务的作用，简单的使用目前最好的backbone足已取得SOTA的效果)
-4. Arxiv [Domain Generalization by Mutual-InformationRegularization with Pre-trained Models](https://arxiv.org/pdf/2203.10789.pdf)(使用预训练模型的特征指导finetune的过程，提高泛化能力)
-5. ICLR Oral [A Fine-Grained Analysis on Distribution Shift](https://zhuanlan.zhihu.com/p/466675818)(如何准确的定义distribution shift，以及如何系统的测量模型的鲁棒性)
-6. ICLR Oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://zhuanlan.zhihu.com/p/466675818)(fine-tuning（微调）和linear probing相辅相成)
-7. ICLR Spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://zhuanlan.zhihu.com/p/466675818)(统一的参数高效微调理论框架)
-8. ICLR Spotlight [How Do Vision Transformers Work?](https://zhuanlan.zhihu.com/p/466675818)(Vision Transformers (ViTs)的优良特性)
-9. ICLR Spotlight [On Predicting Generalization using GANs](https://zhuanlan.zhihu.com/p/466675818)(使用源域数据训练出的GAN来预测测试误差)
-10. ICLR Poster [Uncertainty Modeling for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/466675818)(域泛化时考虑特征的不确定性，一种新的数据增强方法)
-11. ICLR Poster [Gradient Matching for Domain Generalization](https://zhuanlan.zhihu.com/p/466675818)(鼓励来自不同域的梯度之间的内积更大)
+1. CVPR Oral [Towards Principled Disentanglement for Domain Generalization](https://zhuanlan.zhihu.com/p/477855079)(将解耦用于DG，新理论，新方法)
+2. ICML [A Closer Look at Smoothness in Domain Adversarial Training](https://arxiv.org/abs/2206.08213)(平滑分类损失可以提高域对抗训练的泛化性能)
+3. CVPR [Bayesian Invariant Risk Minimization](https://zhuanlan.zhihu.com/p/528829486)(缓解IRM在模型过拟合时退化为ERM的问题)
+4. CVPR [Towards Unsupervised Domain Generalization](https://zhuanlan.zhihu.com/p/528829486)(关注模型预训练的过程对DG任务的影响，设计了一个在DG数据集无监督预训练的算法)
+5. CVPR [PCL: Proxy-based Contrastive Learning for Domain Generalization](https://zhuanlan.zhihu.com/p/528829486)(直接采用有监督的对比学习用于DG效果并不好，本文提出可行方法)
+6. CVPR [Style Neophile: Constantly Seeking Novel Styles for Domain Generalization](https://zhuanlan.zhihu.com/p/528829486)(本文提出了一种新的方法，能够产生更多风格的数据)
+7. Arxiv [WOODS: Benchmarks for Out-of-Distribution Generalization in Time Series Tasks](https://woods-benchmarks.github.io/)(一个关于时序数据OOD的多个benchmark)
+8. Arxiv [A Broad Study of Pre-training for DomainGeneralization and Adaptation](https://arxiv.org/pdf/2203.11819.pdf)(深入研究了预训练对于DA,DG任务的作用，简单的使用目前最好的backbone足已取得SOTA的效果)
+9. Arxiv [Domain Generalization by Mutual-InformationRegularization with Pre-trained Models](https://arxiv.org/pdf/2203.10789.pdf)(使用预训练模型的特征指导finetune的过程，提高泛化能力)
+10. ICLR Oral [A Fine-Grained Analysis on Distribution Shift](https://zhuanlan.zhihu.com/p/466675818)(如何准确的定义distribution shift，以及如何系统的测量模型的鲁棒性)
+11. ICLR Oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://zhuanlan.zhihu.com/p/466675818)(fine-tuning（微调）和linear probing相辅相成)
+12. ICLR Spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://zhuanlan.zhihu.com/p/466675818)(统一的参数高效微调理论框架)
+13. ICLR Spotlight [How Do Vision Transformers Work?](https://zhuanlan.zhihu.com/p/466675818)(Vision Transformers (ViTs)的优良特性)
+14. ICLR Spotlight [On Predicting Generalization using GANs](https://zhuanlan.zhihu.com/p/466675818)(使用源域数据训练出的GAN来预测测试误差)
+15. ICLR Poster [Uncertainty Modeling for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/466675818)(域泛化时考虑特征的不确定性，一种新的数据增强方法)
+16. ICLR Poster [Gradient Matching for Domain Generalization](https://zhuanlan.zhihu.com/p/466675818)(鼓励来自不同域的梯度之间的内积更大)
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
 2. ICCV [CrossNorm and SelfNorm for Generalization under Distribution Shifts](https://zhuanlan.zhihu.com/p/426728622)(思路简单的正则化技术用于DG)
