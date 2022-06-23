@@ -8,7 +8,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 
 ###  🔥 Updated 2022-6-23
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Recent Domain generalization/OOD/Robustness papers on ICML/CVPR 2022 have been updated.
+- Recent Domain generalization, domain adaptation papers on ICML/CVPR 2022 have been updated.
 
 # Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
@@ -111,6 +111,9 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 # Robutness/Adaptation/Fairness
 ## 2022
 1. Arxiv [Are Vision Transformers Robust to Spurious Correlations?](https://arxiv.org/pdf/2203.09125.pdf)(对ViT鲁棒性的研究，更大的模型和更多的训练前数据可以显著提高对伪相关的鲁棒性，预训练数据较少反而不如CNN)
+2. CVPR [Exploring Domain-Invariant Parameters for Source FreeDomain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Exploring_Domain-Invariant_Parameters_for_Source_Free_Domain_Adaptation_CVPR_2022_paper.pdf)(相比于以往工作探索域不变特征，该工作旨在寻找域不变参数)
+3. CVPR [CENet: Consolidation-and-Exploration Network for Continuous DomainAdaptation](https://openaccess.thecvf.com/content/CVPR2022W/RoSe/papers/Zhang_CENet_Consolidation-and-Exploration_Network_for_Continuous_Domain_Adaptation_CVPRW_2022_paper.pdf)(本文说他提出了continuous DA的概念，但是ICML 18就已经提出了呀？)
+4. CVPR [Slimmable Domain Adaptation](https://arxiv.org/abs/2206.06620)(Adaptation的对象不仅应该是数据，本文考虑下游设备的adaptation。)
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
