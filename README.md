@@ -55,6 +55,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 17. ICML [DNA: Domain Generalization with Diversified Neural Averaging](https://zhuanlan.zhihu.com/p/553511043)(classifier ensemble，即对分类器进行集成。本文从理论和实验角度讨论了ensemble与DG任务的connection。)
 18. ICML [Model Agnostic Sample Reweighting for Out-of-Distribution Learning](https://zhuanlan.zhihu.com/p/553511043)(bi-level的去找一种有效的训练样本加权方式)
 19. ICML [Sparse Invariant Risk Minimization](https://zhuanlan.zhihu.com/p/553511043)(利用全局稀疏性约来防止伪特征在训练过程被使用)
+20. Arxiv [grounding visual representations with texts for domain generalization](http://arxiv.org/abs/2207.10285)(用跨模态的数据作为模型的监督信息可以提升泛化性)
 
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
