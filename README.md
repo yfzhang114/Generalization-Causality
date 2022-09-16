@@ -6,9 +6,10 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 
-###  🔥 Updated 2022-8-13
+###  🔥 Updated 2022-9-16
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
 - Recent Domain generalization, domain adaptation papers on ICML have been updated.
+- Papers about test-time adaptation methods have been updated.
 
 # Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
@@ -17,6 +18,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
    * [2020](#2020)
    * [OLD but Important](#old-but-important)
    * [Survey](#survey)
+* [Test-time adaptation](#test-time-adaptation)
 * [Robutness/Adaptation/Fairness](#robutnessadaptationfairness)
    * [2022](#2022-1)
    * [2021](#2021-1)
@@ -115,7 +117,12 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 1. [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
 2. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 
+# Test-time Adaptation
 
+1. NeurIPS 2021 [Spotlight] [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://zhuanlan.zhihu.com/p/559916666)(在test的阶段，我们在依然会选择更新模型头部的linear层)
+2. CVPR 2021 [Adaptive Methods for Real-World Domain Generalization](https://zhuanlan.zhihu.com/p/559916666)(测试时输入source domain embedding，即test时利用domain信息)
+3. ICLR 2021 [Spotlight] [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://zhuanlan.zhihu.com/p/559916666)(测试时最小化模型预测的entropy)
+4. ICCV 2021 [Test-Agnostic Long-Tailed Recognition y Test-Time Aggregating Diverse Experts with Self-Supervision](https://zhuanlan.zhihu.com/p/559916666)(测试时优化样本的自监督损失)
 # Robutness/Adaptation/Fairness
 ## 2022
 1. Arxiv [Are Vision Transformers Robust to Spurious Correlations?](https://arxiv.org/pdf/2203.09125.pdf)(对ViT鲁棒性的研究，更大的模型和更多的训练前数据可以显著提高对伪相关的鲁棒性，预训练数据较少反而不如CNN)
