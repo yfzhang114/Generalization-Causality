@@ -8,7 +8,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 
 ###  🔥 Updated 2022-10-13
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Recent Domain generalization, domain adaptation papers on NeurIPS 2022 have been updated.
+- Recent Domain generalization, domain adaptation papers on **NeurIPS 2022** have been updated.
 - Papers about test-time adaptation methods have been updated.
 
 # Table of Contents (ongoing)
