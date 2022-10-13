@@ -6,9 +6,9 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 
-###  🔥 Updated 2022-9-16
+###  🔥 Updated 2022-10-13
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Recent Domain generalization, domain adaptation papers on ICML have been updated.
+- Recent Domain generalization, domain adaptation papers on NeurIPS 2022 have been updated.
 - Papers about test-time adaptation methods have been updated.
 
 # Table of Contents (ongoing)
@@ -59,6 +59,9 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 19. ICML [Sparse Invariant Risk Minimization](https://zhuanlan.zhihu.com/p/553511043)(利用全局稀疏性约来防止伪特征在训练过程被使用)
 20. Arxiv [grounding visual representations with texts for domain generalization](http://arxiv.org/abs/2207.10285)(用跨模态的数据作为模型的监督信息可以提升泛化性)
 21. Arxiv [On the Strong Correlation Between Model Invarianceand Generalization](http://arxiv.org/abs/2207.07065)(模型预测的不变性与泛化性有强相关，这里的不变性是对x不同perturbation预测的不变性)
+22. NeurIPS [Probable Domain Generalization via Quantile Risk Minimization](https://arxiv.org/abs/2207.09944)(将DG建模成概率泛化的问题，既不是worst-case，也不是average performance)
+23. NeurIPS [Improving Multi-Task Generalization via Regularizing Spurious Correlation](https://arxiv.org/abs/2205.09797)(去除对任务标签的虚假依赖，从而提升多任务学习的效果)
+24. NeurIPS [Understanding the Generalization Benefit of Normalization Layers: Sharpness Reduction](https://arxiv.org/abs/2206.07085)(从理论上解释归一化层使得损失面锐度降低，GD更易优化)
 
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
@@ -123,6 +126,10 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 2. CVPR 2021 [Adaptive Methods for Real-World Domain Generalization](https://zhuanlan.zhihu.com/p/559916666)(测试时输入source domain embedding，即test时利用domain信息)
 3. ICLR 2021 [Spotlight] [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://zhuanlan.zhihu.com/p/559916666)(测试时最小化模型预测的entropy)
 4. ICCV 2021 [Test-Agnostic Long-Tailed Recognition y Test-Time Aggregating Diverse Experts with Self-Supervision](https://zhuanlan.zhihu.com/p/559916666)(测试时优化样本的自监督损失)
+5. NeurIPS 2022 [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://arxiv.org/abs/2206.02721)(发现源和目标域中的集群，并将目标集群与源集群进行匹配，以改进泛化。)
+6. NeurIPS 2022 [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)(测试阶段根据最小化预测熵从而更新prompt)
+7. NeurIPS 2022 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506)(测试阶段数据增强+最小化熵)
+
 # Robutness/Adaptation/Fairness
 ## 2022
 1. Arxiv [Are Vision Transformers Robust to Spurious Correlations?](https://arxiv.org/pdf/2203.09125.pdf)(对ViT鲁棒性的研究，更大的模型和更多的训练前数据可以显著提高对伪相关的鲁棒性，预训练数据较少反而不如CNN)
