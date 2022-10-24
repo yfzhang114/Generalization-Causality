@@ -6,7 +6,7 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 
-###  🔥 Updated 2022-10-13
+###  🔥 Updated 2022-10-20
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
 - Recent Domain generalization, domain adaptation papers on **NeurIPS 2022** have been updated.
 - Papers about test-time adaptation methods have been updated.
@@ -62,6 +62,11 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 22. NeurIPS [Probable Domain Generalization via Quantile Risk Minimization](https://arxiv.org/abs/2207.09944)(将DG建模成概率泛化的问题，既不是worst-case，也不是average performance)
 23. NeurIPS [Improving Multi-Task Generalization via Regularizing Spurious Correlation](https://arxiv.org/abs/2205.09797)(去除对任务标签的虚假依赖，从而提升多任务学习的效果)
 24. NeurIPS [Understanding the Generalization Benefit of Normalization Layers: Sharpness Reduction](https://arxiv.org/abs/2206.07085)(从理论上解释归一化层使得损失面锐度降低，GD更易优化)
+25. NeurIPS [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://zhuanlan.zhihu.com/p/573246040)(全面的对模型鲁棒性的定义提出新的见解)
+26. NeurIPS [On the Strong Correlation Between Model Invariance and Generalization](https://zhuanlan.zhihu.com/p/573246040)(对对泛化与不变性之间的关系进行定量的分析)
+27. NeurIPS [Ensemble of Averages: Improving Model Selectionand Boosting Performance in Domain Generalization](https://zhuanlan.zhihu.com/p/573246040)(训练过程中OOD数据性能波动很大)
+28. NeurIPS [Diverse Weight Averaging for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/573246040)(沿着训练轨迹平均获得的权重)
+29. Arxiv [On Feature Learning in the Presence of Spurious Correlations](http://arxiv.org/abs/2210.11369)(ERM已经能够学到很好的特征了)
 
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
