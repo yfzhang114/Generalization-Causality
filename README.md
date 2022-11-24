@@ -98,9 +98,8 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 26. NeurIPS [Counterfactual Invariance to Spurious Correlations: Why and How to Pass Stress Tests](https://arxiv.org/abs/2106.00545)(本文使用因果工具设计了一个可行的算法，将反事实推理与域泛化（OOD）联系起来，进行有效的“stress test”，比如变化一个句子包含的的gender信息，看最后情感分类会不会改变。)
 27. NeurIPS [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://zhuanlan.zhihu.com/p/357962431)(利用未标记的数据来更好地处理新domain引起的distribution shift)
 28. NeurIPS [An Empirical Investigation of Domain Generalization with Empirical Risk Minimizers](https://zhuanlan.zhihu.com/p/357962431)(基于domain adaptation的理论测量方法不能准确地捕捉OOD泛化行为)
-29. NeurIPS Spotlight [On Inductive Biases for Heterogeneous Treatment Effect Estimation](https://zhuanlan.zhihu.com/p/357962431)(使用因果工具设计了一个可行的算法，将反事实推理与域泛化（OOD）联系起来)
-30. NeurIPS Spotlight [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://zhuanlan.zhihu.com/p/357962431)(在test的阶段，我们在依然会选择更新模型头部的linear层)
-31. NeurIPS [Why Do Better Loss Functions Lead to Less Transferable Features?](https://zhuanlan.zhihu.com/p/357962431)(本文研究了训练目标的选择如何影响卷积神经网络在ImageNet上训练得到的可迁移性)
+29. NeurIPS Spotlight [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://zhuanlan.zhihu.com/p/357962431)(在test的阶段，我们在依然会选择更新模型头部的linear层)
+30. NeurIPS [Why Do Better Loss Functions Lead to Less Transferable Features?](https://zhuanlan.zhihu.com/p/357962431)(本文研究了训练目标的选择如何影响卷积神经网络在ImageNet上训练得到的可迁移性)
 
 ## 2020
 1. Arxiv [I-SPEC: An End-to-End Framework for Learning Transportable, Shift-Stable Models](https://zhuanlan.zhihu.com/p/288980706)(将Domain Adaptation看作是因果图推理问题)
