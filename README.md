@@ -134,6 +134,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 5. NeurIPS 2022 [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://arxiv.org/abs/2206.02721)(发现源和目标域中的集群，并将目标集群与源集群进行匹配，以改进泛化。)
 6. NeurIPS 2022 [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)(测试阶段根据最小化预测熵从而更新prompt)
 7. NeurIPS 2022 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506)(测试阶段数据增强+最小化熵)
+8. CVPR 2022 [Continual Test-Time Domain Adaptation](https://arxiv.org/abs/2203.13591)(从一个源域adapt到一系列连续改变的目标域)
 
 # Robutness/Adaptation/Fairness
 ## 2022
