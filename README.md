@@ -20,7 +20,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
    * [OLD but Important](#old-but-important)
    * [Survey](#survey)
 * [Test-time adaptation](#test-time-adaptation)
-* [Robutness/Adaptation/Fairness](#robutnessadaptationfairness)
+* [Robutness/Adaptation/Fairness/OOD Detection](#robutnessadaptationfairnessood-detection)
    * [2022](#2022-1)
    * [2021](#2021-1)
    * [Before 2021](#before-2021)
@@ -136,13 +136,17 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 6. NeurIPS 2022 [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)(测试阶段根据最小化预测熵从而更新prompt)
 7. NeurIPS 2022 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506)(测试阶段数据增强+最小化熵)
 8. CVPR 2022 [Continual Test-Time Domain Adaptation](https://arxiv.org/abs/2203.13591)(从一个源域adapt到一系列连续改变的目标域)
+9. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
 
-# Robutness/Adaptation/Fairness
+# Robutness/Adaptation/Fairness/OOD Detection
 ## 2022
 1. Arxiv [Are Vision Transformers Robust to Spurious Correlations?](https://arxiv.org/pdf/2203.09125.pdf)(对ViT鲁棒性的研究，更大的模型和更多的训练前数据可以显著提高对伪相关的鲁棒性，预训练数据较少反而不如CNN)
 2. CVPR [Exploring Domain-Invariant Parameters for Source FreeDomain Adaptation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Exploring_Domain-Invariant_Parameters_for_Source_Free_Domain_Adaptation_CVPR_2022_paper.pdf)(相比于以往工作探索域不变特征，该工作旨在寻找域不变参数)
 3. CVPR [CENet: Consolidation-and-Exploration Network for Continuous DomainAdaptation](https://openaccess.thecvf.com/content/CVPR2022W/RoSe/papers/Zhang_CENet_Consolidation-and-Exploration_Network_for_Continuous_Domain_Adaptation_CVPRW_2022_paper.pdf)(本文说他提出了continuous DA的概念，但是ICML 18就已经提出了呀？)
 4. CVPR [Slimmable Domain Adaptation](https://arxiv.org/abs/2206.06620)(Adaptation的对象不仅应该是数据，本文考虑下游设备的adaptation。)
+5. NeurIPS Outstanding [Is Out-of-Distribution Detection Learnable?](https://arxiv.org/pdf/2210.14707.pdf)(各种场景下的OOD detection的PAC理论)
+6. ICML [Out-of-Distribution Detection with Deep Nearest Neighbors](https://arxiv.org/pdf/2204.06507.pdf)(用KNN做OOD detection)
+7. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
@@ -155,7 +159,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 8. NeurIPS [Gradual Domain Adaptation without Indexed Intermediate Domains](https://zhuanlan.zhihu.com/p/316265317)(没有domaparameterin label的Gradual domain adaption(GDA))
 9. NeurIPS [Implicit Semantic Response Alignment for Partial Domain Adaptation](https://zhuanlan.zhihu.com/p/316265317)(PDA如何利用好额外类)
 10. NeurIPS [The balancing principle for parameter choice in distance-regularized domain adaptation](https://zhuanlan.zhihu.com/p/316265317)(如何挑选分类损失和正则化项的tradeoff parameter)
-
+11. AAAI [Provable Guarantees for Understanding Out-of-distribution Detection](https://arxiv.org/pdf/2112.00787.pdf)(基于数据是高斯混合的假设给出最优density估计方式)
 
 ## Before 2021
 1. Available at Optimization Online [Kullback-Leibler Divergence Constrained Distributionally Robust Optimization](https://zhuanlan.zhihu.com/p/381176721)(开篇之作，使用KL散度构造DRO中的uncertainty set)
