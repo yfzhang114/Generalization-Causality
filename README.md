@@ -67,6 +67,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 26. NeurIPS [On the Strong Correlation Between Model Invariance and Generalization](https://zhuanlan.zhihu.com/p/573246040)(对对泛化与不变性之间的关系进行定量的分析)
 27. NeurIPS [Ensemble of Averages: Improving Model Selectionand Boosting Performance in Domain Generalization](https://zhuanlan.zhihu.com/p/573246040)(训练过程中OOD数据性能波动很大)
 28. NeurIPS [Diverse Weight Averaging for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/573246040)(沿着训练轨迹平均获得的权重)
+29. NeurIPS [Improving Out-of-Distribution Generalization byAdversarial Training with Structured Priors](https://openreview.net/forum?id=Ku1afTnmozi)(使用domain specific structured low-rank perturbations来对抗学习提升OOD性能)
 29. Arxiv [On Feature Learning in the Presence of Spurious Correlations](http://arxiv.org/abs/2210.11369)(ERM已经能够学到很好的特征了)
 
 ## 2021
