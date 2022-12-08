@@ -147,6 +147,7 @@ I'm the first year Ph.D. student at the State Key Laboratory of Pattern Recognit
 5. NeurIPS Outstanding [Is Out-of-Distribution Detection Learnable?](https://arxiv.org/pdf/2210.14707.pdf)(各种场景下的OOD detection的PAC理论)
 6. ICML [Out-of-Distribution Detection with Deep Nearest Neighbors](https://arxiv.org/pdf/2204.06507.pdf)(用KNN做OOD detection)
 7. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
+8. Arxiv [RobArch: Designing Robust Architectures against Adversarial Attacks](https://shengyun-peng.github.io/papers/22_robarch.pdf)(对如何设计鲁棒性更强的模型结构做了大量的实验验证)
 
 ## 2021
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
