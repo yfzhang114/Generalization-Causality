@@ -77,7 +77,9 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 27. NeurIPS [Ensemble of Averages: Improving Model Selectionand Boosting Performance in Domain Generalization](https://zhuanlan.zhihu.com/p/573246040)(训练过程中OOD数据性能波动很大)
 28. NeurIPS [Diverse Weight Averaging for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/573246040)(沿着训练轨迹平均获得的权重)
 29. NeurIPS [Improving Out-of-Distribution Generalization byAdversarial Training with Structured Priors](https://openreview.net/forum?id=Ku1afTnmozi)(使用domain specific structured low-rank perturbations来对抗学习提升OOD性能)
-29. Arxiv [On Feature Learning in the Presence of Spurious Correlations](http://arxiv.org/abs/2210.11369)(ERM已经能够学到很好的特征了)
+29. NeurIPS Outstanding [On-Demand Sampling:Learning Optimally from Multiple Distributions](https://arxiv.org/pdf/2210.12529.pdf)(一个有理论保证的多域学习算法，达到了目前最低的sample complexity)
+30. Arxiv [On Feature Learning in the Presence of Spurious Correlations](http://arxiv.org/abs/2210.11369)(ERM已经能够学到很好的特征了)
+31. Arxiv [Simulating Bandit Learning from User Feedback for Extractive Question Answering](https://arxiv.org/abs/2203.10079)(引入少量human evaluation可以提升模型泛化性)
 
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
