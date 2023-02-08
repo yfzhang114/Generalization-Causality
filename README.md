@@ -45,9 +45,8 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 2. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
 3. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
 4. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
-
-0. [Arxiv] [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
-1. [Arxiv] [CLIPood: Generalizing CLIP to Out-of-Distributions](CLIPood: Generalizing CLIP to Out-of-Distributions)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
+6. [Arxiv] [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
+7. [Arxiv] [CLIPood: Generalizing CLIP to Out-of-Distributions](https://arxiv.org/abs/2302.00864)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
 
 ## 2022
 
