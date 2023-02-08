@@ -7,10 +7,10 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 
 ###  🔥 Updated 2023-2-2
+- Recent Domain generalization, domain adaptation papers on **ICLR 2023** and **Arxiv** have been updated.
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
 - Our paper [Exploring Transformer Backbones for Heterogeneous Treatment Effect Estimation](https://arxiv.org/abs/2202.01336) has been accepted by **NeurIPS ML Safety** workshop. [[Code]](https://github.com/hlzhang109/TransTEE)
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an CVPR **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Recent Domain generalization, domain adaptation papers on **NeurIPS 2022** have been updated.
 - Papers about test-time adaptation methods have been updated.
 
 # Table of Contents (ongoing)
@@ -44,6 +44,10 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 1. ICLR [Out-of-Distribution Representation Learning for Time Series Classification](https://arxiv.org/abs/2209.07027)(从OOD的角度考虑时序分类的问题)
 2. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
 3. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
+4. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
+
+0. [Arxiv] [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
+1. [Arxiv] [CLIPood: Generalizing CLIP to Out-of-Distributions](CLIPood: Generalizing CLIP to Out-of-Distributions)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
 
 ## 2022
 
@@ -80,6 +84,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 29. NeurIPS Outstanding [On-Demand Sampling:Learning Optimally from Multiple Distributions](https://arxiv.org/pdf/2210.12529.pdf)(一个有理论保证的多域学习算法，达到了目前最低的sample complexity)
 30. Arxiv [On Feature Learning in the Presence of Spurious Correlations](http://arxiv.org/abs/2210.11369)(ERM已经能够学到很好的特征了)
 31. Arxiv [Simulating Bandit Learning from User Feedback for Extractive Question Answering](https://arxiv.org/abs/2203.10079)(引入少量human evaluation可以提升模型泛化性)
+32. ICLR [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)(改变图象均值/方差来做数据增强，均值方差考虑batch中的不确定性)
 
 ## 2021
 1. ICML [Improved OOD Generalization via Adversarial Training and Pre-training](https://proceedings.mlr.press/v139/yi21a.html)(从理论上表明，一个预先训练的模型对输入扰动具有更强的鲁棒性，那么对下游OOD数据的泛化可以提供更好的初始化。)
