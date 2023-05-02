@@ -8,6 +8,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 ###  🔥 Updated 2023-2-2
 - Recent Domain generalization, domain adaptation papers on **ICLR 2023** and **Arxiv** have been updated.
+- Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
 - Our paper [Exploring Transformer Backbones for Heterogeneous Treatment Effect Estimation](https://arxiv.org/abs/2202.01336) has been accepted by **NeurIPS ML Safety** workshop. [[Code]](https://github.com/hlzhang109/TransTEE)
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an CVPR **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
@@ -47,6 +48,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 4. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
 6. [Arxiv] [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
 7. [Arxiv] [CLIPood: Generalizing CLIP to Out-of-Distributions](https://arxiv.org/abs/2302.00864)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
+8. [ICML]  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566)(用KNN进行测试时间自适应，从理论上分析了TTA work的原因)[[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 
 ## 2022
 
@@ -143,6 +145,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 # Test-time Adaptation
 
+0. ICML  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566)(用KNN进行测试时间自适应，从理论上分析了TTA work的原因)[[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 1. NeurIPS 2021 [Spotlight] [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://zhuanlan.zhihu.com/p/559916666)(在test的阶段，我们在依然会选择更新模型头部的linear层)
 2. CVPR 2021 [Adaptive Methods for Real-World Domain Generalization](https://zhuanlan.zhihu.com/p/559916666)(测试时输入source domain embedding，即test时利用domain信息)
 3. ICLR 2021 [Spotlight] [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://zhuanlan.zhihu.com/p/559916666)(测试时最小化模型预测的entropy)
