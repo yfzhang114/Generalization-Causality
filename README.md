@@ -7,7 +7,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 
 ###  🔥 Updated 2023-5-26
-- Recent Domain generalization, domain adaptation papers on **ICLR 2023**, **CVPR 2023** and **Arxiv** have been updated.
+- Recent Domain generalization, test time adaptation papers on **ICLR 2023**, **CVPR 2023** and **Arxiv** have been updated.
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
@@ -163,6 +163,8 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 9. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
 10. SIGKDD [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661)(每个域学习单独的分类器，测试阶段根据entropy动态组合)[[Code]](https://github.com/yfzhang114/AdaNPC)[[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 11. CVPR [Improved Test-Time Adaptation for Domain Generalization](https://arxiv.org/abs/2304.04494)(使用一个具有可学习参数的损失函数，而不是预定义的函数)
+12. CVPR [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)(将TTA作为一个由于源域和目标域之间的域差距而导致的特征修订问题:确保当前批和所有先前批之间的表示之间的均匀性,一致性)
+13. CVPR [TIPI: Test Time Adaptation with Transformation Invariance](https://atuannguyen.com/assets/pdf/nguyen2023tipi.pdf)(为了克服小batch的问题提出了一个新的loss)
 
 
 # Robutness/Adaptation/Fairness/OOD Detection
