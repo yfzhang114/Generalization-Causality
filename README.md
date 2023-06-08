@@ -55,6 +55,13 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 11. CVPR [Distribution Shift Inversion for Out-of-Distribution Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Distribution_Shift_Inversion_for_Out-of-Distribution_Prediction_CVPR_2023_paper.pdf)(TTA方法，将OoD测试样本用仅在源分布上训练的扩散模型向训练分布转移然后再测试)
 12. CVPR [SFP: Spurious Feature-targeted Pruning for Out-of-Distribution Generalization](https://arxiv.org/abs/2305.11615)(通过移除那些强烈依赖已识别的虚假特征的网络分支来实现modular risk minimization (MRM))
 13. CVPR [Improved Test-Time Adaptation for Domain Generalization](https://arxiv.org/abs/2304.04494)(使用一个具有可学习参数的损失函数，而不是预定义的函数)
+14. ICLR [Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization](https://openreview.net/forum?id=uyqks-LILZX)(真实世界的数据通常在不同属性上有多种分布偏移，目前DG算法无法work，本文利用数据生成过程的知识自适应地识别和应用正确的正则化约束)
+15. ICLR [Using Language to Extend to Unseen Domains](https://openreview.net/forum?id=eR2dG8yjnQ)(利用CLIP模型的知识将源域图像embedding转换为多个目标域的representation（从photos of birds转化为paintings of birds）)
+16. ICLR [How robust is unsupervised representation learning to distribution shift?](https://openreview.net/forum?id=LiXDW7CF94J)(无监督学习算法中学习到的表示在各种极端和现实分布变化下的泛化效果优于SL)
+17. ICLR [PGrad: Learning Principal Gradients For Domain Generalization](https://openreview.net/forum?id=CgCmwcfgEdH)(测量了所有训练域的训练动态,最终的梯度聚合了并给出一个鲁棒的优化方向，有点像meta-learning)
+18. ICLR [Causal Balancing for Domain Generalization](https://openreview.net/forum?id=F91SROvVJ_6)(提出了一种平衡的小批量抽样策略，将有偏差的数据分布转换为平衡分布，基于数据生成过程的潜在因果机制的不变性。)
+19. ICLR [Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization](https://openreview.net/forum?id=wC98X1qpDBA)(无监督域泛化(UDG)，其中不需要成对的数据来连接不同的域。这个问题的研究相对较少，但在DG背景下是有意义的。)
+20. 
 
 ## 2022
 
@@ -159,12 +166,18 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 5. NeurIPS 2022 [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://arxiv.org/abs/2206.02721)(发现源和目标域中的集群，并将目标集群与源集群进行匹配，以改进泛化。)
 6. NeurIPS 2022 [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)(测试阶段根据最小化预测熵从而更新prompt)
 7. NeurIPS 2022 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506)(测试阶段数据增强+最小化熵)
-8. CVPR 2022 [Continual Test-Time Domain Adaptation](https://arxiv.org/abs/2203.13591)(从一个源域adapt到一系列连续改变的目标域)
-9. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
-10. SIGKDD [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661)(每个域学习单独的分类器，测试阶段根据entropy动态组合)[[Code]](https://github.com/yfzhang114/AdaNPC)[[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
-11. CVPR [Improved Test-Time Adaptation for Domain Generalization](https://arxiv.org/abs/2304.04494)(使用一个具有可学习参数的损失函数，而不是预定义的函数)
-12. CVPR [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)(将TTA作为一个由于源域和目标域之间的域差距而导致的特征修订问题:确保当前批和所有先前批之间的表示之间的均匀性,一致性)
-13. CVPR [TIPI: Test Time Adaptation with Transformation Invariance](https://atuannguyen.com/assets/pdf/nguyen2023tipi.pdf)(为了克服小batch的问题提出了一个新的loss)
+8. NeurIPS 2022 [Test-Time Adaptation via Conjugate Pseudo-labels](https://arxiv.org/abs/2207.09640)(对于现存的有/无监督的TTA loss，可以通过对偶的推导简单的得到最优TTA loss（从广泛的函数类别中进行元学习以获得的最佳的TTA损失），这个loss可以转化为一类特殊的伪标签，被称为 Conjugate Pseudo-labels)
+9. CVPR 2022 [Continual Test-Time Domain Adaptation](https://arxiv.org/abs/2203.13591)(从一个源域adapt到一系列连续改变的目标域)
+10. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
+11. SIGKDD 2023 [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661)(每个域学习单独的分类器，测试阶段根据entropy动态组合)[[Code]](https://github.com/yfzhang114/AdaNPC)[[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
+12. CVPR 2023 [Improved Test-Time Adaptation for Domain Generalization](https://arxiv.org/abs/2304.04494)(使用一个具有可学习参数的损失函数，而不是预定义的函数)
+13. CVPR 2023 [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)(将TTA作为一个由于源域和目标域之间的域差距而导致的特征修订问题:确保当前批和所有先前批之间的表示之间的均匀性,一致性)
+14. CVPR 2023 [TIPI: Test Time Adaptation with Transformation Invariance](https://atuannguyen.com/assets/pdf/nguyen2023tipi.pdf)(为了克服小batch的问题提出了一个新的loss)
+15. ICLR 2023 Oral [Towards Stable Test-Time Adaptation in Dynamic Wild World](https://openreview.net/forum?id=g2YraF75Tj)(测试数据流可能具有混合域偏移、小批量和不平衡标签分布shift)
+16. ICLR 2023 [Towards Understanding GD with Hard and Conjugate Pseudo-labels for Test-Time Adaptation](https://openreview.net/forum?id=FJXf1FXN8C)(带共轭标签的GD收敛于在高斯模型下任意小误差的最优预测器，而带有传统伪标签的GD在此任务中失败。)
+17. ICLR 2023  [Energy-Based Test Sample Adaptation for Domain Generalization](https://openreview.net/forum?id=3dnrKbeVatv)(将目标域数据adapt到源域，利用随机梯度朗之万动力学的能量最小化方法迭代更新样本)
+18. ICLR 2023 [Deja Vu: Continual Model Generalization for Unseen Domains ](https://openreview.net/forum?id=L8iZdgeKmI6)(Continual Domain Shift Learning (CDSL))
+19. ICLR 2023 [MECTA: Memory-Economic Continual Test-Time Model Adaptation](https://openreview.net/forum?id=N92hjSf5NNh)(目前大多数TTA方法内存消耗比较高因为要反向传播，本文建议减少批处理大小，采用自适应规范化层来保持稳定和准确的预测，并启发式地停止反向传播缓存。另一方面，我们对网络进行修剪以减少优化过程中的计算和内存开销，并在优化后恢复参数以避免遗忘)
 
 
 # Robutness/Adaptation/Fairness/OOD Detection
