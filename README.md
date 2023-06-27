@@ -6,8 +6,8 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2023-5-26
-- Recent Domain generalization, test time adaptation papers on **ICLR 2023**, **CVPR 2023** and **Arxiv** have been updated.
+###  🔥 Updated 2023-6-27
+- Recent Domain generalization, test time adaptation papers on **ICML 2023**, **ICLR 2023** and **Arxiv** have been updated.
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
@@ -43,13 +43,13 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 ## 2023
 0. ICLR [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194)(环境标签平滑，一行代码提升对抗学习的稳定性和泛化性). [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
-1. ICLR [Out-of-Distribution Representation Learning for Time Series Classification](https://arxiv.org/abs/2209.07027)(从OOD的角度考虑时序分类的问题)
-2. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
-3. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
-4. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
+1. ICML  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566)(用KNN进行测试时间自适应，从理论上分析了TTA work的原因)[[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
+2. ICLR [Out-of-Distribution Representation Learning for Time Series Classification](https://arxiv.org/abs/2209.07027)(从OOD的角度考虑时序分类的问题)
+3. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
+4. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
+5. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
 6. Arxiv [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
 7. Arxiv [CLIPood: Generalizing CLIP to Out-of-Distributions](https://arxiv.org/abs/2302.00864)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
-8. ICML  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566)(用KNN进行测试时间自适应，从理论上分析了TTA work的原因)[[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 9. SIGKDD [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661)(每个域学习单独的分类器，测试阶段根据entropy动态组合)[[Code]](https://github.com/yfzhang114/AdaNPC)[[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 10. CVPR [Federated Domain Generalization with Generalization Adjustment](https://scholar.google.com/scholar_url?url=https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Federated_Domain_Generalization_With_Generalization_Adjustment_CVPR_2023_paper.pdf&hl=zh-CN&sa=X&d=13348506996942284912&ei=sTpvZIjhI9OQ6rQP29uDqAU&scisig=AGlGAw8T1YjQNN8nVv2lI6LPBiGS&oi=scholaralrt&hist=lUnt8X4AAAAJ:7797965790415635509:AGlGAw-zJ0qtstLHlwZtiYmf7uNN&html=&pos=1&folt=rel)(为联邦域泛化(FedDG)提供了一个新的新的减小方差的正则项以鼓励公平性)
 11. CVPR [Distribution Shift Inversion for Out-of-Distribution Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Distribution_Shift_Inversion_for_Out-of-Distribution_Prediction_CVPR_2023_paper.pdf)(TTA方法，将OoD测试样本用仅在源分布上训练的扩散模型向训练分布转移然后再测试)
@@ -61,7 +61,6 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 17. ICLR [PGrad: Learning Principal Gradients For Domain Generalization](https://openreview.net/forum?id=CgCmwcfgEdH)(测量了所有训练域的训练动态,最终的梯度聚合了并给出一个鲁棒的优化方向，有点像meta-learning)
 18. ICLR [Causal Balancing for Domain Generalization](https://openreview.net/forum?id=F91SROvVJ_6)(提出了一种平衡的小批量抽样策略，将有偏差的数据分布转换为平衡分布，基于数据生成过程的潜在因果机制的不变性。)
 19. ICLR [Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization](https://openreview.net/forum?id=wC98X1qpDBA)(无监督域泛化(UDG)，其中不需要成对的数据来连接不同的域。这个问题的研究相对较少，但在DG背景下是有意义的。)
-20. 
 
 ## 2022
 
