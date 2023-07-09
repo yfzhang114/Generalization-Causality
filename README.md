@@ -57,6 +57,8 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 17. ICLR [PGrad: Learning Principal Gradients For Domain Generalization](https://openreview.net/forum?id=CgCmwcfgEdH)(测量了所有训练域的训练动态,最终的梯度聚合了并给出一个鲁棒的优化方向，有点像meta-learning)
 18. ICLR [Causal Balancing for Domain Generalization](https://openreview.net/forum?id=F91SROvVJ_6)(提出了一种平衡的小批量抽样策略，将有偏差的数据分布转换为平衡分布，基于数据生成过程的潜在因果机制的不变性。)
 19. ICLR [Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization](https://openreview.net/forum?id=wC98X1qpDBA)(无监督域泛化(UDG)，其中不需要成对的数据来连接不同的域。这个问题的研究相对较少，但在DG背景下是有意义的。)
+20. Arxiv [Revisiting Out-of-distribution Robustness in NLP: Benchmark, Analysis, and LLMs Evaluations](https://arxiv.org/pdf/2306.04618.pdf)(泛化算法在NLP benchmark上的表现不比fully finetune好多少特别是ID数据足够多时)
+21. Arixv [A Survey on Out-of-Distribution Evaluation of Neural NLP Models](https://arxiv.org/pdf/2306.15261.pdf)(系统评估Adversarial robustness, domain generalization and dataset biases)
 
 ## 2022
 
