@@ -6,14 +6,13 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2023-6-27
-- Recent Domain generalization, test time adaptation papers on **ICML 2023**, **ICLR 2023** and **Arxiv** have been updated.
+###  🔥 Updated 2023-7-27
+- Recent Domain generalization, test time adaptation, and large language model papers on **ICML 2023** have been updated.
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
 - Our paper [Exploring Transformer Backbones for Heterogeneous Treatment Effect Estimation](https://arxiv.org/abs/2202.01336) has been accepted by **NeurIPS ML Safety** workshop. [[Code]](https://github.com/hlzhang109/TransTEE)
 - Our paper Towards Principled Disentanglement for Domain Generalization has been selected for an CVPR **ORAL** presentation. :blush: [[Reading Notes]](https://zhuanlan.zhihu.com/p/477855079) [[Code]](https://github.com/hlzhang109/DDG)  [[paper]](https://arxiv.org/abs/2111.13839)
-- Papers about test-time adaptation methods have been updated.
 
 # Table of Contents (ongoing)
 * [Generalization/OOD](#generalizationood)
@@ -240,6 +239,12 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 5. ICML 2023 Oral [Mimetic Initialization of Self-Attention Layers](https://zhuanlan.zhihu.com/p/639174050)(mimetic initialization让attention在小数据集上也能训练的很好)
 6. ICML 2023 Oral [Cross-Modal Fine-Tuning: Align then Refine](https://zhuanlan.zhihu.com/p/639174050)(跨模态微调框架，将单个大规模预训练模型的适用性扩展到多样的模态)
 7. ICML 2023 Oral [Evaluating Self-Supervised Learning via Risk Decomposition](https://zhuanlan.zhihu.com/p/639174050)(综合指标评估自监督学习（SSL）的性能)
+8. ICML 2023 [XTab: Cross-table Pretraining for Tabular Transformers](https://zhuanlan.zhihu.com/p/614276528)(在各个领域的不同数据表上进行跨表预训练)
+9. ICML 2023 [Multi-Environment Pretraining Enables Transfer to Action Limited Datasets](https://zhuanlan.zhihu.com/p/614276528)(解决大规模训练模型所需的序列决策数据往往缺乏标注的动作信息)
+10. ICML 2023 [Why do Nearest Neighbor Language Models Work?](https://zhuanlan.zhihu.com/p/614276528)(分析kNN-LM与传统LM的不同维度来回答kNN-LM为什么好)
+11. ICML 2023 [PaLM-E: An Embodied Multimodal Language Model](https://zhuanlan.zhihu.com/p/614276528)(将真实世界中的连续传感器模态直接融入语言模型中，从而建立单词和感知之间的联系)
+12. ICML 2023 [Compositional Exemplars for In-context Learning](https://zhuanlan.zhihu.com/p/614276528)(如何改进现有的上下文示例选择方法)
+13. ICML 2023 [Synthetic Prompting: Generating Chain-of-Thought Demonstrations for Large Language Models](https://zhuanlan.zhihu.com/p/614276528)(利用人工创建的一些示例来引导大型语言模型自动生成更多示例，并选择有效的示例以促进更好的推理能力。)
 
 # Optimization/GNN/Energy/Generative/Causality/Others
 
