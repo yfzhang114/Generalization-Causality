@@ -6,7 +6,7 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2023-7-27
+###  🔥 Updated 2023-8-10
 - Recent Domain generalization, test time adaptation, and large language model papers on **ICML 2023** have been updated.
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
@@ -180,6 +180,11 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 19. ICLR 2023 [MECTA: Memory-Economic Continual Test-Time Model Adaptation](https://openreview.net/forum?id=N92hjSf5NNh)(目前大多数TTA方法内存消耗比较高因为要反向传播，本文建议减少批处理大小，采用自适应规范化层来保持稳定和准确的预测，并启发式地停止反向传播缓存。另一方面，我们对网络进行修剪以减少优化过程中的计算和内存开销，并在优化后恢复参数以避免遗忘)
 20. ICML 2023 Oral [The Price of Differential Privacy under Continual Observation](https://zhuanlan.zhihu.com/p/639174050)(连续适应模型场景下的差分隐私)
 21. ICML 2023 Oral [ODS: Test-Time Adaptation in the Presence of Open-World Data Shift](https://zhuanlan.zhihu.com/p/639174050)(同时适应协变量和标签分布的偏移)
+22. ICML 2023 [Uncovering Adversarial Risks of Test-Time Adaptation](https://zhuanlan.zhihu.com/p/649295930)(测试批处理中引入恶意样本可能会对最终预测模型的生成产生影响)
+23. ICML 2023 [On Pitfalls of Test-Time Adaptation](https://zhuanlan.zhihu.com/p/649295930)(名为TTAB的测试时自适应基准，包含了十种最先进的算法、多样化的分布偏移情况和两种评估协议。)
+24. ICML 2023 [Leveraging Proxy of Training Data for Test-Time Adaptation](https://zhuanlan.zhihu.com/p/649295930)(使用训练数据的轻量级且信息丰富的代理方法，并提出了一种完全利用这些代理的测试阶段自适应方法)
+25. ICML 2023 [Test-time Adaptation with Slot-Centric Models](https://zhuanlan.zhihu.com/p/649295930)(在场景分解任务中，简单的TTA损失对于任务是不足够的)
+26. ICML 2023 [Test-Time Style Shifting: Handling Arbitrary Styles in Domain Generalization](https://zhuanlan.zhihu.com/p/649295930)(将测试样本的样式（与源域存在较大样式差距）转换为模型已熟悉的最近的源域样式，然后进行预测)
 
 
 # Robutness/Adaptation/Fairness/OOD Detection
