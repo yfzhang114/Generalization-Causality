@@ -8,6 +8,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 ###  🔥 Updated 2023-8-10
 - Recent Domain generalization, test time adaptation, and large language model papers on **ICML 2023** have been updated.
+- Our paper  [OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling](https://arxiv.org/abs/2309.12659) has been accepted by **NeurIPS 2023**.  [[Code]](https://github.com/yfzhang114/OneNet)[[Reading Notes]](https://zhuanlan.zhihu.com/p/658191974)
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
 - Our paper [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194) has been accepted by **ICLR 2023**. [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
