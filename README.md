@@ -7,7 +7,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 
 
 ###  🔥 Updated 2023-8-10
-- Recent Domain generalization, test time adaptation, and large language model papers on **ICML 2023** have been updated.
+- Recent Domain generalization, test time adaptation, and OOD detection papers on **ICCV 2023** have been updated.
 - Our paper  [OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling](https://arxiv.org/abs/2309.12659) has been accepted by **NeurIPS 2023**.  [[Code]](https://github.com/yfzhang114/OneNet)[[Reading Notes]](https://zhuanlan.zhihu.com/p/658191974)
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
@@ -201,6 +201,8 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 6. ICML [Out-of-Distribution Detection with Deep Nearest Neighbors](https://arxiv.org/pdf/2204.06507.pdf)(用KNN做OOD detection)
 7. Arxiv [A Simple Test-Time Method for Out-of-Distribution Detection](https://arxiv.org/pdf/2207.08210.pdf)(test time adaptation for OOD detection)
 8. Arxiv [RobArch: Designing Robust Architectures against Adversarial Attacks](https://shengyun-peng.github.io/papers/22_robarch.pdf)(对如何设计鲁棒性更强的模型结构做了大量的实验验证)
+9. ICCV [Nearest Neighbor Guidance for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/ICCV2023/papers/Park_Nearest_Neighbor_Guidance_for_Out-of-Distribution_Detection_ICCV_2023_paper.pdf)(用ID数据给knn-ood再计算一个额外的正则项，缓解knn-ood在near-ID附近表现不好的现象)
+10. ICCV [Understanding the Feature Norm for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/ICCV2023/papers/Park_Understanding_the_Feature_Norm_for_Out-of-Distribution_Detection_ICCV_2023_paper.pdf)( Feature Norm与分类器置信度有关，但是不依赖于类别标签，是一个很好的无监督metric)
 
 ## before 2022
 1. ICLR Poster [Learning perturbation sets for robust machine learning](https://zhuanlan.zhihu.com/p/391235069)(使用生成模型学习扰动集合)
