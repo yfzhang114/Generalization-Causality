@@ -6,8 +6,8 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2023-8-10
-- Recent Domain generalization, test time adaptation, and OOD detection papers on **ICCV 2023** have been updated.
+###  🔥 Updated 2023-10-30
+- Recent Domain generalization, test time adaptation, and OOD detection papers on **ICCV 2023**, LLM safety have been updated.
 - Our paper  [OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling](https://arxiv.org/abs/2309.12659) has been accepted by **NeurIPS 2023**.  [[Code]](https://github.com/yfzhang114/OneNet)[[Reading Notes]](https://zhuanlan.zhihu.com/p/658191974)
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
@@ -20,6 +20,7 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
    * [2023](#2023)
    * [2022](#2022)
    * [2017-2021](#old-but-important)
+* [LLM safety](#llm-safety)
 * [Test-time adaptation](#test-time-adaptation)
 * [Robutness/Adaptation/Fairness/OOD Detection](#robutnessadaptationfairnessood-detection)
    * [2022](#2022-1)
@@ -156,6 +157,17 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 1. [Causality 基础概念汇总](https://zhuanlan.zhihu.com/p/269625734)
 2. [Domain Adaptation基础概念与相关文章解读](https://zhuanlan.zhihu.com/p/272508224)
 ****
+
+# LLM Safety
+
+1. [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://zhuanlan.zhihu.com/p/664096097)(作者描述了他们早期进行手动红队测试的努力，旨在提高模型的安全性并测量模型的安全性)
+2. [Jailbroken: How Does LLM Safety Training Fail?](https://zhuanlan.zhihu.com/p/664096097)(调查为什么这些越狱攻击成功以及它们如何生成的。竞争目标和不匹配的泛化)
+3. [Constitutional AI: Harmlessness from AI Feedback](https://zhuanlan.zhihu.com/p/664096097)(通过AI指导来生开发一个有帮助、诚实、无害且不会规避问题的AI助手)
+4. [Generative Judge for Evaluating Alignment](https://zhuanlan.zhihu.com/p/664096097)(AUTO-J，相比于传统的评估score，这是一个开源模型，能够有效地评估LLMs在各种任务上的表现。)
+5. [Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation](https://zhuanlan.zhihu.com/p/664096097)(通过操纵decoding方法的变化来破坏模型的对齐。)
+6. [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://zhuanlan.zhihu.com/p/664096097)(AutoDAN可以通过精心设计的分层遗传算法自动生成隐蔽越狱提示。)
+7. [Are aligned neural networks adversarially aligned?](https://zhuanlan.zhihu.com/p/664096097)( 对多模态模型，非NLP的方法进行越狱效果是很不错的,这种错位攻击是十分危险的, 并且目前的对齐技术无法防范此类攻击.)
+8. [On the Exploitability of Instruction Tuning](https://zhuanlan.zhihu.com/p/664096097)(这项研究旨在探究如何通过向训练数据中注入特定的遵循指令示例，从而有意改变模型行为的方式)
 
 # Test-time Adaptation
 
