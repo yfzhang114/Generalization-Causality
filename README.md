@@ -6,8 +6,8 @@ This is a repository for organizing articles related to Domain generalization, O
 I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2023-10-30
-- Recent Domain generalization, test time adaptation, and OOD detection papers on **ICCV 2023**, LLM safety have been updated.
+###  🔥 Updated 2023-12-14
+- Recent Domain generalization, test time adaptation, and OOD detection papers on **NeurIPS 2023**, LLM safety have been updated.
 - Our paper  [OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling](https://arxiv.org/abs/2309.12659) has been accepted by **NeurIPS 2023**.  [[Code]](https://github.com/yfzhang114/OneNet)[[Reading Notes]](https://zhuanlan.zhihu.com/p/658191974)
 - Our paper  [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661) has been accepted by **SIGKDD 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC) [[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 - Our paper  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566) has been accepted by **ICML 2023**. [[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
@@ -41,12 +41,13 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 ## 2023
 0. ICLR [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194)(环境标签平滑，一行代码提升对抗学习的稳定性和泛化性). [[Code]](https://github.com/yfzhang114/Environment-Label-Smoothing)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/600466715)
 1. ICML  [AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation](https://arxiv.org/abs/2304.12566)(用KNN进行测试时间自适应，从理论上分析了TTA work的原因)[[Code]](https://github.com/yfzhang114/AdaNPC)  [[Reading Notes]](https://zhuanlan.zhihu.com/p/624770864)
-2. ICLR [Out-of-Distribution Representation Learning for Time Series Classification](https://arxiv.org/abs/2209.07027)(从OOD的角度考虑时序分类的问题)
-3. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
-4. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
-5. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
-6. Arxiv [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
-7. Arxiv [CLIPood: Generalizing CLIP to Out-of-Distributions](https://arxiv.org/abs/2302.00864)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
+2. NeurIPS [OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling](https://zhuanlan.zhihu.com/p/658191974)(使用在线模型集成，克服时序模型部署过程中遇到的分布变化问题)
+3. ICLR [Out-of-Distribution Representation Learning for Time Series Classification](https://arxiv.org/abs/2209.07027)(从OOD的角度考虑时序分类的问题)
+4. ICLR [Contrastive Learning for Unsupervised Domain Adaptation of Time Series](https://arxiv.org/abs/2206.06243)(用对比学习对其类间分布为时序DA学一个好的表征)
+5. ICLR [Pareto Invarian Risk Minimization](https://openreview.net/forum?id=esFxSb_0pSL)(通过多目标优化角度理解与缓解OOD/DG优化难问题)
+6. ICLR [Fairness and Accuracy under Domain Generalization](https://arxiv.org/abs/2301.13323)(不仅考虑泛化的性能，也考虑泛化的公平性)
+7. Arxiv [Adversarial Style Augmentation for Domain Generalization](https://arxiv.org/abs/2301.12643)(对抗学习添加图像扰动以提升模型泛化性)
+8. Arxiv [CLIPood: Generalizing CLIP to Out-of-Distributions](https://arxiv.org/abs/2302.00864)(使用预训练的CLIP模型，克服domain shift and open class两个问题)
 9. SIGKDD [Domain-Specific Risk Minimization for Out-of-Distribution Generalization](https://arxiv.org/abs/2208.08661)(每个域学习单独的分类器，测试阶段根据entropy动态组合)[[Code]](https://github.com/yfzhang114/AdaNPC)[[Reading Notes]](https://zhuanlan.zhihu.com/p/631524930)
 10. CVPR [Federated Domain Generalization with Generalization Adjustment](https://scholar.google.com/scholar_url?url=https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Federated_Domain_Generalization_With_Generalization_Adjustment_CVPR_2023_paper.pdf&hl=zh-CN&sa=X&d=13348506996942284912&ei=sTpvZIjhI9OQ6rQP29uDqAU&scisig=AGlGAw8T1YjQNN8nVv2lI6LPBiGS&oi=scholaralrt&hist=lUnt8X4AAAAJ:7797965790415635509:AGlGAw-zJ0qtstLHlwZtiYmf7uNN&html=&pos=1&folt=rel)(为联邦域泛化(FedDG)提供了一个新的新的减小方差的正则项以鼓励公平性)
 11. CVPR [Distribution Shift Inversion for Out-of-Distribution Prediction](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Distribution_Shift_Inversion_for_Out-of-Distribution_Prediction_CVPR_2023_paper.pdf)(TTA方法，将OoD测试样本用仅在源分布上训练的扩散模型向训练分布转移然后再测试)
@@ -60,6 +61,13 @@ I'm the second year Ph.D. student at the State Key Laboratory of Pattern Recogni
 19. ICLR [Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization](https://openreview.net/forum?id=wC98X1qpDBA)(无监督域泛化(UDG)，其中不需要成对的数据来连接不同的域。这个问题的研究相对较少，但在DG背景下是有意义的。)
 20. Arxiv [Revisiting Out-of-distribution Robustness in NLP: Benchmark, Analysis, and LLMs Evaluations](https://arxiv.org/pdf/2306.04618.pdf)(泛化算法在NLP benchmark上的表现不比fully finetune好多少特别是ID数据足够多时)
 21. Arixv [A Survey on Out-of-Distribution Evaluation of Neural NLP Models](https://arxiv.org/pdf/2306.15261.pdf)(系统评估Adversarial robustness, domain generalization and dataset biases)
+22. NeurIPS [Not All Out-of-Distribution Data Are Harmful to Open-Set Active Learning](https://zhuanlan.zhihu.com/p/672304605)(在主动学习中，选择有价值的OOD实例，平衡伪-ID和伪-OOD实例，以增强ID分类器和OOD检测器)
+23. NeurIPS [Environment-Aware Dynamic Graph Learning for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/672304605)(本文探讨了动态图神经网络（DGNNs）中分布外（OOD）泛化的挑战)
+24. NeurIPS [Revisiting Out-of-distribution Robustness in NLP: Benchmarks, Analysis, and LLMs Evaluations](https://zhuanlan.zhihu.com/p/672304605)(重新评估自然语言处理（NLP）中的分布外（OOD）鲁棒性的研究，特别关注预训练语言模型（PLMs）)
+25. NeurIPS [Understanding and Improving Feature Learning for Out-of-Distribution Generalization](https://zhuanlan.zhihu.com/p/672304605)(提供对ERM特征学习及其对OOD性能的影响的理论理解)
+26. NeurIPS [On the Adversarial Robustness of Out-of-distribution Generalization Models](https://zhuanlan.zhihu.com/p/672304605)(对OOD对抗鲁棒性进行理论分析、基于理论洞见设计两种算法，并对提出的算法进行实验证实。)
+27. NeurIPS [Secure Out-of-Distribution Task Generalization with Energy-Based Models](https://zhuanlan.zhihu.com/p/672304605)(一种能够检测和适应任务分布变化的方法，以提高元学习的鲁棒性和泛化能力。)
+28. NeurIPS [Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models](https://zhuanlan.zhihu.com/p/672304605)(从预训练的基础模型中进行知识蒸馏可以显著提高模型在分布偏移方面的鲁棒性)
 
 ## 2022
 
